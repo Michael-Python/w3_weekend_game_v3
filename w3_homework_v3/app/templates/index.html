@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+    <header>
+        <h1> Try your luck at the time-honoured game.
+    </header>
+    <main>
+        <h3>
+            Choose an option for player 1 and choose an option for player 2.
+        </h3>
+        <form action="/get_result" method="post">
+            <p>
+                <label for="username1">Player 1, enter your name.</label>
+                <input type="text" name="username1" id="username1">
+
+                <label for="selection1">Player 1, choose Rock, Paper or Scissors.</label>
+                <input type="text" name="selection1" id="selection1">
+
+            </p>
+            <p>
+                <label for="username2">Player 1, enter your name.</label>
+                <input type="text" name="username2" id="username2">
+
+                <label for="selection2">Player 2, choose Rock, Paper or Scissors.</label>
+                <input type="text" name="selection2" id="selection2">
+                
+            </p>
+            <input type="submit" value ="Return result">
+            
+        </form>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>

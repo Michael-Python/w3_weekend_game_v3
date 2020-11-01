@@ -1,0 +1,2 @@
+FLASK_APP=ropasc.py
+FLASK_ENV=development
